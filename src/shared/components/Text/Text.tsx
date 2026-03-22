@@ -47,4 +47,4 @@ export const Text = (props: TextProps) => {
 	)
 }
 
-Text.displayName = 'SText'
+Text.displayName = 'Text'
