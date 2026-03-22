@@ -1,4 +1,4 @@
-export type STextSize =
+export type TextSize =
 	| 'xs' // 10px
 	| 'sm' // 12px
 	| 'md' // 14px

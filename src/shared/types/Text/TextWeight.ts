@@ -1,4 +1,4 @@
-export type STextWeight =
+export type TextWeight =
 	| 'regular'
 	| 'medium'
 	| 'semibold'
