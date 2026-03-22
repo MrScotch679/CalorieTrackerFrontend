@@ -25,8 +25,9 @@ const SelectItem = React.forwardRef<HTMLDivElement, SelectItemProps>(
 				</Select.ItemIndicator>
 			</Select.Item>
 		)
-	},
+	}
 )
+// TODO: REFACTOR
 
 const SSelect = () => (
 	<Select.Root>

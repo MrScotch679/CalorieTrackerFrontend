@@ -5,6 +5,7 @@ import styles from './Checkbox.module.scss'
 interface CheckboxProps extends RadixCheckboxPrimitive.CheckboxProps {
 	label?: string
 }
+// TODO: REFACTOR
 
 const Checkbox = (props: CheckboxProps) => {
 	const { label, id, ...rest } = props

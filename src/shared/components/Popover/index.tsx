@@ -2,6 +2,7 @@ import { Cross2Icon, MixerHorizontalIcon } from '@radix-ui/react-icons'
 import { Popover } from 'radix-ui'
 import styles from './styles.module.css'
 
+// TODO: REFACTOR
 const PopoverDemo = () => (
 	<Popover.Root>
 		<Popover.Trigger asChild>
