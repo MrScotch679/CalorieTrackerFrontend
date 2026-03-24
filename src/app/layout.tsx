@@ -1,15 +1,15 @@
-import type { Metadata } from 'next/types'
-import type { ReactNode } from 'react'
+import type { Metadata } from 'next/types';
+import type { ReactNode } from 'react';
 
 interface Props {
-	children: ReactNode
+  children: ReactNode;
 }
 
 // TODO: Add metadata
-export const metadata: Metadata = {}
+export const metadata: Metadata = {};
 
 export default function RootLayout(props: Props) {
-	const { children } = props
+  const { children } = props;
 
-	return children
+  return children;
 }

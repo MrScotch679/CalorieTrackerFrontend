@@ -1,12 +1,12 @@
 export type TextSize =
-	| 'xs' // 10px
-	| 'sm' // 12px
-	| 'md' // 14px
-	| 'base' // 16px
-	| 'lg' // 18px
-	| 'xl' // 20px
-	| '2xl' // 22px
-	| '3xl' // 24px
-	| '4xl' // 26px
-	| '5xl' // 28px
-	| '6xl' // 32p
+  | 'xs' // 10px
+  | 'sm' // 12px
+  | 'md' // 14px
+  | 'base' // 16px
+  | 'lg' // 18px
+  | 'xl' // 20px
+  | '2xl' // 22px
+  | '3xl' // 24px
+  | '4xl' // 26px
+  | '5xl' // 28px
+  | '6xl'; // 32p

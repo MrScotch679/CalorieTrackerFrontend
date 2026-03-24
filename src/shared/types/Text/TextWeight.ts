@@ -1,6 +1,1 @@
-export type TextWeight =
-	| 'regular'
-	| 'medium'
-	| 'semibold'
-	| 'bold'
-	| 'extrabold'
+export type TextWeight = 'regular' | 'medium' | 'semibold' | 'bold' | 'extrabold';

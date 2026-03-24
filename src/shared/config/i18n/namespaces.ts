@@ -1,5 +1,5 @@
 export enum Namespaces {
-	COMMON = 'common',
+  COMMON = 'common',
 }
 
-export const namespaces = Object.values(Namespaces)
+export const namespaces = Object.values(Namespaces);

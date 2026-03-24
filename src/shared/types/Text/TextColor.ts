@@ -1,1 +1,1 @@
-export type TextColor = 'primary' | 'secondary'
+export type TextColor = 'primary' | 'secondary';

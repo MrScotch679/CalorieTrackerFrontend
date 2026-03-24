@@ -1,26 +1,26 @@
-'use client'
+'use client';
 
-import { configure } from 'mobx'
-import type { ReactNode } from 'react'
+import { configure } from 'mobx';
+import type { ReactNode } from 'react';
 
 configure({
-	enforceActions: 'never',
-	isolateGlobalState: true,
-	...(process.env.NODE_ENV === 'development' && {
-		reactionRequiresObservable: true,
-		observableRequiresReaction: true,
-	}),
-	reactionScheduler: f => setTimeout(f),
-})
+  enforceActions: 'never',
+  isolateGlobalState: true,
+  ...(process.env.NODE_ENV === 'development' && {
+    reactionRequiresObservable: true,
+    observableRequiresReaction: true,
+  }),
+  reactionScheduler: f => setTimeout(f),
+});
 
 interface Props {
-	children: ReactNode
+  children: ReactNode;
 }
 
 export const MobxProvider = (props: Props) => {
-	const { children } = props
+  const { children } = props;
 
-	return <>{children}</>
-}
+  return <>{children}</>;
+};
 
-MobxProvider.displayName = 'MobxProvider'
+MobxProvider.displayName = 'MobxProvider';

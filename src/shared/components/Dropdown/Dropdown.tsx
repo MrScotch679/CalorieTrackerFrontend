@@ -1,39 +1,40 @@
-import { DropdownMenu } from 'radix-ui'
+import { DropdownMenu } from 'radix-ui';
+
 // TODO: REFACTOR
 
 export const Dropdown = () => (
-	<DropdownMenu.Root>
-		<DropdownMenu.Trigger />
+  <DropdownMenu.Root>
+    <DropdownMenu.Trigger />
 
-		<DropdownMenu.Portal>
-			<DropdownMenu.Content>
-				<DropdownMenu.Label />
-				<DropdownMenu.Item />
+    <DropdownMenu.Portal>
+      <DropdownMenu.Content>
+        <DropdownMenu.Label />
+        <DropdownMenu.Item />
 
-				<DropdownMenu.Group>
-					<DropdownMenu.Item />
-				</DropdownMenu.Group>
+        <DropdownMenu.Group>
+          <DropdownMenu.Item />
+        </DropdownMenu.Group>
 
-				<DropdownMenu.CheckboxItem>
-					<DropdownMenu.ItemIndicator />
-				</DropdownMenu.CheckboxItem>
+        <DropdownMenu.CheckboxItem>
+          <DropdownMenu.ItemIndicator />
+        </DropdownMenu.CheckboxItem>
 
-				<DropdownMenu.RadioGroup>
-					<DropdownMenu.RadioItem value=''>
-						<DropdownMenu.ItemIndicator />
-					</DropdownMenu.RadioItem>
-				</DropdownMenu.RadioGroup>
+        <DropdownMenu.RadioGroup>
+          <DropdownMenu.RadioItem value="">
+            <DropdownMenu.ItemIndicator />
+          </DropdownMenu.RadioItem>
+        </DropdownMenu.RadioGroup>
 
-				<DropdownMenu.Sub>
-					<DropdownMenu.SubTrigger />
-					<DropdownMenu.Portal>
-						<DropdownMenu.SubContent />
-					</DropdownMenu.Portal>
-				</DropdownMenu.Sub>
+        <DropdownMenu.Sub>
+          <DropdownMenu.SubTrigger />
+          <DropdownMenu.Portal>
+            <DropdownMenu.SubContent />
+          </DropdownMenu.Portal>
+        </DropdownMenu.Sub>
 
-				<DropdownMenu.Separator />
-				<DropdownMenu.Arrow />
-			</DropdownMenu.Content>
-		</DropdownMenu.Portal>
-	</DropdownMenu.Root>
-)
+        <DropdownMenu.Separator />
+        <DropdownMenu.Arrow />
+      </DropdownMenu.Content>
+    </DropdownMenu.Portal>
+  </DropdownMenu.Root>
+);
