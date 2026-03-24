@@ -9,5 +9,7 @@ interface Props {
 export const metadata: Metadata = {}
 
 export default function RootLayout(props: Props) {
-	return props.children
+	const { children } = props
+
+	return children
 }
